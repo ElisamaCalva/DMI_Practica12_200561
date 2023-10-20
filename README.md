@@ -35,7 +35,7 @@
 
 |  Característica |  Información |
 | :------------: | :------------: |
-| Nombre  |  Practica 12: Implementación de de un paginador para mostrar el resultado de al aire, populares y proximamente. |
+| Nombre  |  Practica 12: Implementación de un paginador para mostrar el resultado de al aire, populares y proximamente. |
 | Descripción  | Esta aplicación fue creada con Flutter con la finalidad de poder mostrar un ejemplo sencillo de la aplicación que brinda acceso directo a las peliculas y series del momento. Esta aplicación permite explorar un catálogo de expansión y películas, series.Esta aplicacion el el nombre de "MovieAPP," puede acceder a información detallada sobre cada título y sus fechas de lanzamiento. Además, disfrutar de una integración fluida con tus servicios de transmisión preferidos, permitiéndote ver películas y episodios directamente desde la aplicación. Su interfaz de usuario elegante y fácil navegación garantiza una experiencia intuitiva y gratificante. Para este nuevo avance se realizaron mejoras en la app, una de ellas fue con la función de poder mostrar o dividir las peliculas en general y las de mor calificación cómo también las mas recientes, en el apartado de porgamas de TV se dividieron en general en aire y las de mejor calificación.  |
 |  Fecha de Carga | 13/10/23  |
 
