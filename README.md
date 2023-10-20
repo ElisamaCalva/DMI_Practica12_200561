@@ -1,4 +1,4 @@
-# DMI_Practica11_200561
+# DMI_Practica12_200561
 
 [![Banner-de-Twitch-Nubes-Gamer-Chica-Morado.png](https://i.postimg.cc/15q3LFXF/Banner-de-Twitch-Nubes-Gamer-Chica-Morado.png)](https://postimg.cc/MvzwBvyZ)
 
@@ -32,7 +32,7 @@
 
 |  Característica |  Información |
 | :------------: | :------------: |
-| Nombre  |  Practica 11: Implementación de navegación entre Series de TV y Películas. |
+| Nombre  |  Practica 12: Implementación de navegación entre Series de TV y Películas. |
 | Descripción  | Esta aplicación fue creada con Flutter con la finalidad de poder mostrar un ejemplo sencillo de la aplicación que brinda acceso directo a las peliculas y series del momento. Esta aplicación permite explorar un catálogo de expansión y películas, series.Esta aplicacion el el nombre de "MovieAPP," puede acceder a información detallada sobre cada título y sus fechas de lanzamiento. Además, disfrutar de una integración fluida con tus servicios de transmisión preferidos, permitiéndote ver películas y episodios directamente desde la aplicación. Su interfaz de usuario elegante y fácil navegación garantiza una experiencia intuitiva y gratificante. Para este nuevo avance se realizaron mejoras en la app, y fue agregar da las funciones de apartado peliculas y series en tv, para ellos dichas funciones envía que peliculas están en recomendación y en el apartado de televisión muestra que series o programas recomienda, con su respectivo nombre y calificación.  |
 |  Fecha de Carga | 13/10/23  |
 
