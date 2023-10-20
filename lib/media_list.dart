@@ -12,7 +12,7 @@ class MediaList extends StatefulWidget {
   MediaList(this.provider, this.category);
   @override
   _MediaListState createState() =>
-      new _MediaListState(); // Define una clase que extiende StatefulWidget y proporciona un método para crear su estado interno.
+      new _MediaListState();
 }
 
 class _MediaListState extends State<MediaList> {
@@ -39,7 +39,6 @@ class _MediaListState extends State<MediaList> {
     });
   }
 
-  // Define una clase que extiende State y representa el estado interno de MediaList.
   @override
   Widget build(BuildContext context) {
     return new Container(
@@ -54,7 +53,6 @@ class _MediaListState extends State<MediaList> {
               }));
             },
           );
-          // return new MediaListItem(_media[index]);
         },
       ),
     );
