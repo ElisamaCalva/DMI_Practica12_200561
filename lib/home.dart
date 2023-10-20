@@ -32,7 +32,6 @@ class _HomeState extends State<Home> {
   int _page = 0;
 
   MediaType mediaType = MediaType.movie;
-  // Estilo de fuente personalizado
   final TextStyle customTextStyle = TextStyle(
     fontFamily: 'si',
     fontSize: 16.0,
@@ -73,13 +72,13 @@ class _HomeState extends State<Home> {
               style: TextStyle(fontFamily: 'si'),
             ),
             selected: mediaType == MediaType.movie,
-            trailing: new Icon(Icons.local_movies), // Icono de películas
+            trailing: new Icon(Icons.local_movies),
             onTap: () {
               _changeMediaType(MediaType.movie);
               Navigator.of(context).pop();
-            }, // Icono de películas
+            },
           ),
-          // Separador en el menú
+
           new Divider(
             height: 5.0,
           ),
@@ -87,29 +86,27 @@ class _HomeState extends State<Home> {
           new ListTile(
             title: new Text(
               "Television",
-              style: TextStyle(fontFamily: 'si'), // Aplica el estilo de fuente personalizado
+              style: TextStyle(fontFamily: 'si'),
             ),
             trailing: new Icon(
-                Icons.live_tv), // Icono de televisión, // Icono de películas
+                Icons.live_tv),
             onTap: () {
               _changeMediaType(MediaType.show);
               Navigator.of(context).pop();
-            }, // Icono de películas
+            },
           ),
-          // Separador en el menú
           new Divider(
             height: 5.0,
           ),
-          // Elemento del menú "Cerrar"
           new ListTile(
             title: new Text(
               "Cerrar",
-              style: TextStyle(fontFamily: 'si'), // Aplica el estilo de fuente personalizado
+              style: TextStyle(fontFamily: 'si'),
             ),
-            trailing: new Icon(Icons.exit_to_app), // Icono de televisión
+            trailing: new Icon(Icons.exit_to_app),
             // Icono de televisión
             onTap: () => Navigator.of(context)
-                .pop(), // Cierra el menú al tocar este elemento
+                .pop(),
           ),
         ]),
       ),
@@ -123,7 +120,6 @@ class _HomeState extends State<Home> {
         },
       ),
       bottomNavigationBar: new BottomNavigationBar(
-        // Barra de navegación inferior (BottomNavigationBar) con iconos y etiquetas
         items: _obtenerIconos(),
         onTap: _navigationTapped,
         currentIndex: _page,
@@ -131,34 +127,33 @@ class _HomeState extends State<Home> {
     );
   }
 
-  // Método para obtener los elementos de la barra de navegación inferior
   List<BottomNavigationBarItem> _obtenerIconos() {
     return mediaType == MediaType.movie? [
       new BottomNavigationBarItem(
-        icon: new Icon(Icons.thumb_up), // Icono de pulgar hacia arriba
-        label: ("Populares"), // Etiqueta para la opción "populares"
+        icon: new Icon(Icons.thumb_up),
+        label: ("Populares"),
       ),
       new BottomNavigationBarItem(
-        icon: new Icon(Icons.update), // Icono de actualización
-        label: ("Proximamente"), // Etiqueta para la opción "Proximamente"
+        icon: new Icon(Icons.update),
+        label: ("Proximamente"),
       ),
       new BottomNavigationBarItem(
-        icon: new Icon(Icons.star), // Icono de estrella
-        label: ("Mejor valorados"), // Etiqueta para la opción "Mejor valorados"
+        icon: new Icon(Icons.star),
+        label: ("Mejor valorados"),
       )
       ]:
       [
       new BottomNavigationBarItem(
-        icon: new Icon(Icons.thumb_up), // Icono de pulgar hacia arriba
-        label: ("Populares"), // Etiqueta para la opción "populares"
+        icon: new Icon(Icons.thumb_up),
+        label: ("Populares"),
       ),
       new BottomNavigationBarItem(
-        icon: new Icon(Icons.update), // Icono de actualización
-        label: ("En el Aire") // Etiqueta para la opción "Proximamente"
+        icon: new Icon(Icons.update),
+        label: ("En el Aire")
       ),
       new BottomNavigationBarItem(
-        icon: new Icon(Icons.star), // Icono de estrella
-        label: ("Mejor valorados"), // Etiqueta para la opción "Mejor valorados"
+        icon: new Icon(Icons.star),
+        label: ("Mejor valorados"),
       ),
     ];
   }
